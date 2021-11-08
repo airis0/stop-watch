@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>StopWatch</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+	<div id="main">
+		<h1>StopWatch</h1>
+		<div id="left">
+			<form name="form_sw">
+				<p><input type="button" name="bstart" value="Start" onclick="startCount()"></p>
+				<p><input type="button" name="reset" value="Reset" onclick="resetTime()"></p>
+				<p><input type="button" name="lap-split" value="Lap/Split" onclick="lap_split()"></p>			
+			</form>
+		</div>
+		<div id="right">
+			<h2 id="timer"></h2>
+		</div>
+	</div>
+
+	<div id="lap_split">
+		<table id="lap_split_area">
+			<!-- Lap/Split -->
+		</table>
+	</div>
+
+	<script src="./js/jquery-2.0.3.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
