@@ -1,0 +1,38 @@
+body {
+	/* ブラウザによる余白の削除 */
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	margin: 0 auto;
+	width: 300px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#lap_split {
+	clear: both;
+}
+
+table , th , td {
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+table {
+	margin: 0 auto;
+  background-color: lightcyan;
+  border: solid 3px black;
+}
+
+th , td {
+  padding: 10px 25px;
+  text-align: center;
+}
